@@ -1,6 +1,6 @@
 === WP Menu Logic Pro ===
 
-Stable tag: 170219.20007
+Stable tag: 170219.32438
 
 Tested up to: 0.0.0
 Requires at least: 0.0.0

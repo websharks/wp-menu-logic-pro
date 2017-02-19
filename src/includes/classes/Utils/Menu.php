@@ -31,14 +31,14 @@ use function get_defined_vars as vars;
 /**
  * Menu utils.
  *
- * @since $v Initial release.
+ * @since 170219.32438 Initial release.
  */
 class Menu extends SCoreClasses\SCore\Base\Core
 {
     /**
      * On `wp_edit_nav_menu_walker` filter.
      *
-     * @since $v Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param string $walker Walker class to use.
      *
@@ -52,7 +52,7 @@ class Menu extends SCoreClasses\SCore\Base\Core
     /**
      * On `wp_setup_nav_menu_item` filter.
      *
-     * @since $v Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param object $item Menu item.
      *
@@ -79,7 +79,7 @@ class Menu extends SCoreClasses\SCore\Base\Core
     /**
      * On `_wp_nav_menu_item_edit_custom_fields` action.
      *
-     * @since 17xxxx Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param int|scalar $item_id Item ID.
      * @param object     $item    Menu item data.
@@ -103,7 +103,7 @@ class Menu extends SCoreClasses\SCore\Base\Core
         $logic = (string) ($item->_logic ?? ''); // Current value.
 
         echo '<p class="field-_logic description description-wide">';
-        echo    '<label for="edit-menu-item-_logic-'.esc_attr($item->ID).'">'.__('Menu Logic').'<br />';
+        echo    '<label for="edit-menu-item-_logic-'.esc_attr($item->ID).'">'.__('Menu Logic', 'wp-menu-logic').'<br />';
 
         echo        '<textarea id="edit-menu-item-_logic-'.esc_attr($item->ID).'" name="menu-item-_logic['.esc_attr($item->ID).']"'.
                      ' rows="2" class="widefat edit-menu-item-_logic" style="font-family:monospace;">'.
@@ -116,7 +116,7 @@ class Menu extends SCoreClasses\SCore\Base\Core
     /**
      * On `wp_update_nav_menu_item` action.
      *
-     * @since 17xxxx Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param int|scalar $menu_id    Menu ID (not item ID).
      * @param int|scalar $item_db_id Menu item database ID.
@@ -148,7 +148,7 @@ class Menu extends SCoreClasses\SCore\Base\Core
     /**
      * On `wp_get_nav_menu_items` filter.
      *
-     * @since 17xxxx Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param object[] $items Menu item objects.
      * @param object   $menu  The menu object.

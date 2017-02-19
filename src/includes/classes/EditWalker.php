@@ -33,14 +33,14 @@ use function get_defined_vars as vars;
 /**
  * Edit walker.
  *
- * @since $v Initial release.
+ * @since 170219.32438 Initial release.
  */
 class EditWalker extends \Walker_Nav_Menu_Edit
 {
     /**
      * Start the element output.
      *
-     * @since 17xxxx Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param string $output Passed by reference.
      * @param object $item   Menu item data object.

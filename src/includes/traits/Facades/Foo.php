@@ -31,12 +31,12 @@ use function get_defined_vars as vars;
 /**
  * Foo utils.
  *
- * @since $v Initial release.
+ * @since 170219.32438 Initial release.
  */
 trait Foo
 {
     /**
-     * @since $v Initial release.
+     * @since 170219.32438 Initial release.
      *
      * @param mixed ...$args Variadic args to underlying utility.
      *
