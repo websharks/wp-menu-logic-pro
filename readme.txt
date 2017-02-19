@@ -1,9 +1,9 @@
 === WP Menu Logic Pro ===
 
-Stable tag: 170219.32438
+Stable tag: 170219.32662
 
-Tested up to: 0.0.0
-Requires at least: 0.0.0
+Tested up to: 4.8
+Requires at least: 4.7
 
 Text Domain: wp-menu-logic
 

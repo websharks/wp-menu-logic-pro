@@ -4,7 +4,7 @@
  *
  * @wp-plugin
  *
- * Version: 170219.32438
+ * Version: 170219.32662
  * Text Domain: wp-menu-logic
  * Plugin Name: WP Menu Logic Pro
  *

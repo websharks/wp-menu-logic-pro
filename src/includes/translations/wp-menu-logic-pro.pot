@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WP Menu Logic Pro package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Menu Logic Pro 170219.32438\n"
+"Project-Id-Version: WP Menu Logic Pro 170219.32662\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-menu-logic-pro\n"
-"POT-Creation-Date: 2017-02-19 09:00:54+00:00\n"
+"POT-Creation-Date: 2017-02-19 09:05:59+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
